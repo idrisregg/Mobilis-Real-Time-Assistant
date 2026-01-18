@@ -13,8 +13,8 @@ Powered by Modern Real Time Communication Technology
 <p>
 This project uses a <strong>long context</strong> to create the best possible AI assistant for
 <strong>Mobilis services</strong>.<br/>
-The context is <strong>not included</strong> in the repository and exists only on the
-<strong>live server</strong> when hosted.
+(The context is <strong>not included</strong> in the repository and exists only on the
+<strong>live server</strong> when i host it).
 </p>
 
 <p>
@@ -58,4 +58,5 @@ Vanilla JavaScript.
 <p>
 Add your API key as shown in <code>appsettings.json.example</code>
 </p>
+
 
