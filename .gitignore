@@ -27,6 +27,7 @@ bld/
 ScaffoldingReadMe.txt
 publish/
 *.nupkg
+appsettings.json
 *.snupkg
 .nuget/
 packages/
