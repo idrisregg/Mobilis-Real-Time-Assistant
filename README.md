@@ -27,7 +27,7 @@ is long and comprehensive, and sending it on every HTTP request to the AI would 
 
 <ul>
   <li>.NET Core</li>
-  <li>Blazor (minimal front-end)</li>
+  <li>Blazor  (for very minimal front-end)</li>
   <li>External AI API Service</li>
 </ul>
 
@@ -58,5 +58,6 @@ Vanilla JavaScript.
 <p>
 Add your API key as shown in <code>appsettings.json.example</code>
 </p>
+
 
 
