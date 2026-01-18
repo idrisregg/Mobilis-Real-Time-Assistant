@@ -1,0 +1,10 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
+
+services:
+  mobilisrealtimeassistant:
+    image: mobilisrealtimeassistant
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5176:5176

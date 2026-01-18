@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if any frontend tooling)
+node_modules/
+
+# Test results
+TestResults/
