@@ -51,3 +51,5 @@ wwwroot/lib/
 node_modules/
 docker-compose.override.yml
 docker-compose.override.dev.yml
+Data/
+bin/
