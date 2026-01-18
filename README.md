@@ -59,5 +59,11 @@ Vanilla JavaScript.
 Add your API key as shown in <code>appsettings.json.example</code>
 </p>
 
+<h3>(. Run App</h3>
+
+<pre><code>dotnet run</code></pre>
+
+
+
 
 
