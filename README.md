@@ -1,6 +1,11 @@
 <img width="1577" height="939" alt="1" src="https://github.com/user-attachments/assets/226f7c76-5b33-4824-bfe3-37a0673135ac" />
 <img width="1441" height="797" alt="2" src="https://github.com/user-attachments/assets/8b52a652-3d6c-4ba6-93d8-4324fafd38f8" />
 
+##Architecture : 
+<img width="1875" height="799" alt="archi" src="https://github.com/user-attachments/assets/804181d9-0127-412d-8669-1b7da8a9441d" />
+
+
+
 <h1 align="center">Mobilis AI Support Assistant</h1>
 
 <h3 align="center">
@@ -62,6 +67,7 @@ Add your API key as shown in <code>appsettings.json.example</code>
 <h3>(. Run App</h3>
 
 <pre><code>dotnet run</code></pre>
+
 
 
 
