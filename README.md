@@ -1,26 +1,38 @@
 <img width="1577" height="939" alt="1" src="https://github.com/user-attachments/assets/226f7c76-5b33-4824-bfe3-37a0673135ac" />
 <img width="1441" height="797" alt="2" src="https://github.com/user-attachments/assets/8b52a652-3d6c-4ba6-93d8-4324fafd38f8" />
 
-## The Mobilis AI Support Assistant with Real Time Technology Made With Latest Real Time Communication Technology Enabling live update between Client and Server
+Mobilis AI Support Assistant
+Real-Time Support Powered by Modern Communication Technology
+Overview
 
-# Breif about it : 
-The Project Uses a Long Context To make the Best psossible assistant for Mobilis Service (Context is not included in the project but is in the live Server when i host it), it uses Caching for Faster loading (the context is bit long and comprehensive that on every http request to The AI takes a toll on the Ping) 
+This project uses a long context to create the best possible AI assistant for Mobilis services.
+The context is not included in the repository and exists only on the live server when hosted.
 
-## TECH STACK :
-.NET Core 
+Caching is implemented to improve performance and loading speed, as the context is long and comprehensive, and sending it on every HTTP request to the AI would negatively affect ping.
 
-Blazor (for very minimal front-end)
+Tech Stack
+
+.NET Core
+
+Blazor (minimal front-end)
 
 External AI API Service
 
-## Considerations: 
-For future integration of the project please consider the changing of Front-end since it's written in Vanilla JS 
+Considerations
 
-## Setup :
-1-Clone the project
+For future integration, consider updating the front-end, as it is currently written in Vanilla JavaScript.
 
-2- run "donet restore"
+Setup
+1. Clone the project
+2. Restore dependencies
+dotnet restore
 
-3- add Your own Context ( Create Data Folder inside it "ContextResponse.txt" file)
+3. Add context
 
-3- Add your API Key as in appsettings.json.example 
+Create a Data folder
+
+Inside it, add a ContextResponse.txt file
+
+4. Add API key
+
+Add your API key as shown in appsettings.json.example
