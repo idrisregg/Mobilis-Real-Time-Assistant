@@ -4,12 +4,11 @@
 <h1 align="center">Mobilis AI Support Assistant</h1>
 
 <h3 align="center">
-Real-Time Support Powered by Modern Communication Technology
+Powered by Modern Real Time Communication Technology
 </h3>
 
 <hr/>
 
-<h2>Overview</h2>
 
 <p>
 This project uses a <strong>long context</strong> to create the best possible AI assistant for
@@ -59,3 +58,4 @@ Vanilla JavaScript.
 <p>
 Add your API key as shown in <code>appsettings.json.example</code>
 </p>
+
