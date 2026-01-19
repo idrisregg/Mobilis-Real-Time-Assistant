@@ -1,5 +1,3 @@
-using Microsoft.Extensions.Configuration;
-using System.Net.Http;
 using System.Text.Json;
 
 namespace Mobilis_Real_Time_Assistant.Service;
