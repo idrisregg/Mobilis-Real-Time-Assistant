@@ -34,6 +34,7 @@ is long and comprehensive, and sending it on every HTTP request to the AI would 
 
 <ul>
   <li>.NET Core</li>
+  <li>SignalR library</li>
   <li>Blazor  (for very minimal front-end)</li>
   <li>External AI API Service</li>
 </ul>
@@ -69,6 +70,7 @@ Add your API key as shown in <code>appsettings.json.example</code>
 <h3>(. Run App</h3>
 
 <pre><code>dotnet run</code></pre>
+
 
 
 
