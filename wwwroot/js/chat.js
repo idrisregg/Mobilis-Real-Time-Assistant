@@ -11,11 +11,24 @@ document.getElementById("sendButton").disabled = true;
 connection.on("ReceiveMessage", (message, response) => {
     const messagesList = document.getElementById("messagesList");
 
+    //user input
+    const userInput = document.createElement("li");
+    userInput.innerHTML = `<strong></strong> ${escapeHtml(message)}`;
+    userInput.style.color = "#166d47";
+    userInput.style.userSelect = "none";
+    userInput.style.textAlign = "right";
+    userInput.style.fontSize = "17px";
+    messagesList.appendChild(userInput);
+
     // Display assistant response
     const responseLi = document.createElement("li");
     responseLi.innerHTML = `<strong>Mobilis:</strong> ${escapeHtml(response)}`;
     responseLi.style.color = "#000000";
+    responseLi.style.fontSize = "18px";
     messagesList.appendChild(responseLi);
+
+
+
 
     // Auto-scroll to bottom
     messagesList.scrollTop = messagesList.scrollHeight;
@@ -80,9 +93,16 @@ function sendMessage() {
         document.getElementById("messageInput").focus();
         return;
     }
+    if (message.length > 800) {
+        alert("Message is too Long")
+        messageInput.value = "";
+        userInput.value = "";
+
+    }
 
     // disable button while sending
     const sendButton = document.getElementById("sendButton");
+    messageInput.disabled = true;
     sendButton.disabled = true;
     sendButton.value = "Sending...";
 
@@ -100,6 +120,7 @@ function sendMessage() {
             // button for re-enable 
             sendButton.disabled = false;
             sendButton.value = "Send Message";
+            messageInput.disabled = false;
         });
 }
 
