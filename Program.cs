@@ -8,7 +8,6 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddSignalR();
 builder.Services.AddHttpClient<ApiIntegration>(); // registering http service for api fetching
-builder.Services.AddSingleton<ApiIntegration>();
 builder.Services.AddSingleton<IContextCacheService, ContextCacheService>();
 
 
