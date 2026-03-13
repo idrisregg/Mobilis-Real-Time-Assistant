@@ -35,7 +35,7 @@ is long and comprehensive, and sending it on every HTTP request to the AI would 
 <ul>
   <li>.NET Core</li>
   <li>SignalR library</li>
-  <li>Blazor  (for very minimal front-end)</li>
+  <li>Razor  (for very minimal front-end)</li>
   <li>External AI API Service</li>
 </ul>
 
